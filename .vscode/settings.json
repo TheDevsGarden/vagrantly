@@ -1,0 +1,56 @@
+{
+  "settings.cycle": [
+    {
+      "id": "zMode",
+      "overrideWorkspaceSettings": false,
+      "values": [
+        {
+          "files.exclude": {
+            /** Level 2 */
+            "packages/eslint*": true,
+            "packages/frontend": true,
+            "packages/next-config": true,
+            "packages/postcss-config": true,
+            "packages/prettier-config": true,
+            "packages/rollup-config": true,
+            "packages/tsconfig": true,
+            "**/*config*": true,
+            "**/package.json": true,
+            "**/.eslintrc": true,
+            "**/turbo.json": true,
+            "**/*.setup.*": true,
+            "**/dist/**": true,
+
+            /** Level 3 */
+            ".git": true,
+            ".husky": true,
+            ".vercel": true,
+            "**/.prettierignore": true,
+            "**/.gitignore": true,
+            "**/.nvmrc": true,
+            "**/next-env.d.ts": true,
+            "**/.next": true,
+            "**/node_modules": true,
+            "**/yarn.lock": true,
+            "**/.turbo": true
+          }
+        },
+        {
+          "files.exclude": {}
+        }
+      ]
+    },
+    {
+      "id": "colorTheme",
+      "overrideWorkspaceSettings": false,
+      "values": [
+        {
+          "workbench.colorTheme": "Quiet Light"
+        },
+        {
+          "workbench.colorTheme": "GitHub Dark"
+        }
+      ]
+    }
+  ]
+}
